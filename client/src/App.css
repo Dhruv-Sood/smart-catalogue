@@ -1,0 +1,21 @@
+/* Neubrutalist base overrides */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial Black', 'Arial Bold', Arial, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fef9c3;
+  border-left: 2px solid black;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+}
