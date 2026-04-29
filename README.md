@@ -25,39 +25,39 @@
 
 ## IPR Submission Proof
 
-Copyright application submitted.
+Copyright application submitted. Forms available in the `IPR Submission Proof/` folder:
 
-![IPR Submission Screenshot](./Copyright_Application_2210992328_2210990757_2210992161_2210990279.png)
-
-[View Copyright Application (PDF)](./Copyright_Application.pdf)
+- [form1.pdf](./IPR%20Submission%20Proof/form1.pdf)
+- [form2.pdf](./IPR%20Submission%20Proof/form2.pdf)
 
 ---
 
 ## Report and PPT
 
-Report and presentation files are to be uploaded in this repository.
+- [Report](./Report%20and%20PPT/Report_2210992328_2210990757_2210990279_2210992161.pdf)
+- [Presentation (PPT)](./Report%20and%20PPT/PPT_2210992328_2210990757_2210990279_2210992161.pptx)
 
 ---
 
 ## Source Code
 
-This repository contains the full source code for the Smart AI Cataloging Application, organized as follows:
+Full source code is in the `Source code/` folder, organized as:
 
-- `api/` — Node.js backend with Gemini AI integration and MySQL database
-- `client/` — React + Vite frontend with Tailwind CSS
+- `Source code/api/` — Node.js backend with Gemini AI integration and MySQL database
+- `Source code/client/` — React + Vite frontend with Tailwind CSS
 
 ### Running the project
 
 **Backend:**
 ```bash
-cd api
+cd "Source code/api"
 # Add your GEMINI_API_KEY to a .env file
 docker-compose up -d
 ```
 
 **Frontend:**
 ```bash
-cd client
+cd "Source code/client"
 npm install
 npm run dev
 ```
